@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("Search", "Stud"))
+{
+    <p>Enter id:</p>
+    <input type="number" name="id" required />
+    <br />
+    <br />
+   
+    <input type="submit" value="Search ID" />
+}
+
